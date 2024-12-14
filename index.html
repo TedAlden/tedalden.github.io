@@ -1,50 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio - WIP!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <nav class="navbar navbar-custom navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
     <div class="container">
+      <section id="about-me">
+        <h2>About Me</h2>
+        <div class="row">
+          <div class="left-col col-md-6">
+            <h3>Hi, I'm Ted!</h3>
+            <p>
+              I'm currently a Master's student in Computer Science at the University of Sussex.
+              Experienced in <b>full-stack web development</b> and <b>Python</b>.
+              I'm a quick learner, able to pick up new technologies on the fly.
+            </p>
+            <ul>
+              <li>Strong mathematical background</li>
+              <li>Well versed in data structures & algorithms</li>
+              <li>Led multiple agile group projects at my University</li>
+              <li>Devops skills including Docker, and CI/CD with GitHub Actions</li>
+            </ul>
+            <p>
+              I also like to tinker with my own homelab, currently running various services via Portainer, as well as publicly hosting a couple of my own projects.
+            </p>
+            <ul class="socials">
+              <li>
+                <a target="_blank" href="https://github.com/TedAlden"><i class="bi bi-github"></i><span>GitHub</span></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/in/ted-alden-templeman/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="right-col col-md-6">
+            <h3>Languages</h3>
+            <ul class="skills-list">
+              <li class="skill language">Python</li>
+              <li class="skill language">Java</li>
+              <li class="skill language">HTML</li>
+              <li class="skill language">CSS</li>
+              <li class="skill language">JavaScript</li>
+              <li class="skill language">SQL</li>
+            </ul>
+            <h3>Frameworks</h3>
+            <ul class="skills-list">
+              <li class="skill framework">Flask</li>
+              <li class="skill framework">Tkinter</li>
+              <li class="skill framework">Pygame</li>
+              <li class="skill framework">Bootstrap</li>
+              <li class="skill framework">JQuery</li>
+              <li class="skill framework">React.js</li>
+              <li class="skill framework">React Native</li>
+              <li class="skill framework">Node.js</li>
+              <li class="skill framework">Express.js</li>
+              <li class="skill framework">Electron</li>
+              <li class="skill framework">JavaFX</li>
+            </ul>
+            <h3>Technologies</h3>
+            <ul class="skills-list">
+              <li class="skill technology">MongoDB</li>
+              <li class="skill technology">Firebase</li>
+              <li class="skill technology">Docker</li>
+              <li class="skill technology">Git</li>
+              <li class="skill technology">CI/CD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <section id="projects">
-        <div class="row project">
+        <h2>Notable Projects</h2>
+        <div class="row project project-large">
           <div class="col-md project-image-wrapper">
-            <img src="https://placehold.co/1200x800/2c2b38/ccc">
+            <img src="https://placehold.co/1200x800/2c2b38/ccc" />
           </div>
           <div class="col-md project-text-wrapper">
             <h1>Project title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
             <div class="view-group">
-              <span class="view"><i class="bi bi-github"></i><a class="link">View on GitHub</a></span>
-              <span class="view"><i class="bi bi-display"></i><a class="link">Live Demo</a></span>
+              <span class="view"
+                ><i class="bi bi-github"></i
+                ><a class="link">View on GitHub</a></span
+              >
+              <span class="view"
+                ><i class="bi bi-display"></i
+                ><a class="link">Live Demo</a></span
+              >
             </div>
             <ul class="tags">
               <li class="tag">Python</li>
@@ -53,16 +107,27 @@
             </ul>
           </div>
         </div>
-        <div class="row project">
+        <div class="row project project-large">
           <div class="col-md project-image-wrapper">
-            <img src="https://placehold.co/1200x800/2c2b38/ccc">
+            <img src="https://placehold.co/1200x800/2c2b38/ccc" />
           </div>
           <div class="col-md project-text-wrapper">
             <h1>Another Project Here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
             <div class="view-group">
-              <span class="view"><i class="bi bi-github"></i><a class="link">View on GitHub</a></span>
-              <span class="view"><i class="bi bi-display"></i><a class="link">Live Demo</a></span>
+              <span class="view"
+                ><i class="bi bi-github"></i
+                ><a class="link">View on GitHub</a></span
+              >
+              <span class="view"
+                ><i class="bi bi-display"></i
+                ><a class="link">Live Demo</a></span
+              >
             </div>
             <ul class="tags">
               <li class="tag">Python</li>
@@ -71,16 +136,30 @@
             </ul>
           </div>
         </div>
-        <div class="row project">
+        <div class="row project project-large">
           <div class="col-md project-image-wrapper">
-            <img src="https://placehold.co/1200x800/2c2b38/ccc">
+            <img src="https://placehold.co/1200x800/2c2b38/ccc" />
           </div>
           <div class="col-md project-text-wrapper">
             <h1>Some New Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
             <div class="view-group">
-              <span class="view"><i class="bi bi-github"></i><a class="link">View on GitHub</a></span>
-              <span class="view"><i class="bi bi-display"></i><a class="link">Live Demo</a></span>
+              <span class="view"
+                ><i class="bi bi-github"></i
+                ><a class="link">View on GitHub</a></span
+              >
+              <span class="view"
+                ><i class="bi bi-display"></i
+                ><a class="link">Live Demo</a></span
+              >
             </div>
             <ul class="tags">
               <li class="tag">Python</li>
@@ -90,18 +169,312 @@
           </div>
         </div>
       </section>
-    </div>
-    <!-- <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      <section id="projects-small">
+        <h2>Other Projects</h2>
+        <div class="projects-list">
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Project title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Another Project Here</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project project-small">
+            <!-- <div class="project-image-wrapper">
+              <img src="https://placehold.co/1200x800/2c2b38/ccc" />
+            </div> -->
+            <div class="project-text-wrapper">
+              <h1>Some New Title</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="view-group">
+                <span class="view"
+                  ><i class="bi bi-github"></i
+                  ><a class="link">View on GitHub</a></span
+                >
+                <span class="view"
+                  ><i class="bi bi-display"></i
+                  ><a class="link">Live Demo</a></span
+                >
+              </div>
+              <ul class="tags">
+                <li class="tag">Python</li>
+                <li class="tag">Java</li>
+                <li class="tag">HTML</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram" width="24" height="24"></i></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin" width="24" height="24"></i></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github" width="24" height="24"></i></a></li>
-        </ul>
-      </footer>
-    </div> -->
+      </section>
+    </div>
+    <br>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const projects = document.querySelectorAll(".project");
+      const skills = document.querySelectorAll(".skill");
+      const aboutMe = document.querySelectorAll("#about-me .left-col");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            } else {
+              entry.target.classList.remove("visible");
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      projects.forEach((project) => {
+        observer.observe(project);
+      });
+
+      skills.forEach((skill) => {
+        observer.observe(skill);
+      });
+
+      observer.observe(aboutMe[0]);
+    });
+  </script>
 </html>
